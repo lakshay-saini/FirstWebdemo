@@ -5,7 +5,6 @@ import com.FirstWeb.model.Location;
 import java.util.List;
 
 /**
- * Purpose: Dao layer interface to provide access to database
  * {@link LocationDaoImpl}
  */
 public interface LocationDao {

@@ -12,14 +12,9 @@ import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
-/**
- * Purpose: Dao layer Implementation class to perform database operation
- */
 @Repository
 public class LocationDaoImpl implements LocationDao {
-    /**
-     * Logger implementation for logging
-     */
+
     private static final Logger LOGGER = LogManager.getLogger(LocationDaoImpl.class);
 
     public int add(Location location) {
